@@ -12,6 +12,7 @@ Packed with:
 - twMerge + clsx util
 
 Installed with pnpm
+Might use bun in the future
 
 You can also run this powershell script, so that you don't need to setup stuff manually
 
