@@ -3,13 +3,13 @@
 Modern react using **bun** and **vite**
 
 Packed with:
-- Typescript
-- Eslint (8.57.0)
-- Prettier
-- Tailwindcss
-- Vitest
-- Postcss (will get replaced by lightningcss in the future)
-- twMerge + clsx util
+
+-   Typescript
+-   Eslint (8.57.0)
+-   Prettier
+-   Tailwindcss (4 alpha)
+-   Vitest
+-   twMerge + clsx util
 
 Installed with bun
 Might use bun in the future
@@ -19,7 +19,7 @@ You can also run this powershell script, so that you don't need to setup stuff m
 ```ps1
 git init .
 git remote add origin "https://github.com/TomsBack/web-start-config"
-git pull origin master-using-bun
+git pull origin master-bun-tailwind4
 
 Remove-Item .\.git -Force -Recurse
 Get-ChildItem -Path .\ -Filter ".gitkeep" -Recurse | Remove-Item
