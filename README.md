@@ -1,10 +1,15 @@
-# web-start-config
+# Starting React pack for projects
 
-My package pack, so that I don't have to manually always do it.
+Modern react using pnpm and vite
 
-Bare minimum to start working with modern react.
-
-Used with vite & react. Different frameworks/libraries should work
+packed with:
+ts
+eslint (8.57.0)
+prettier
+tailwindcss
+vite-test
+postcss (will get replaced by lightningcss in the future)
+twMerge + clsx util
 
 Installed with pnpm
 
