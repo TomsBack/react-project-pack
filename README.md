@@ -19,7 +19,7 @@ You can also run this powershell script, so that you don't need to setup stuff m
 ```ps1
 git init .
 git remote add origin "https://github.com/TomsBack/web-start-config"
-git pull origin master
+git pull origin master-using-bun
 
 Remove-Item .\.git -Force -Recurse
 Get-ChildItem -Path .\ -Filter ".gitkeep" -Recurse | Remove-Item
