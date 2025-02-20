@@ -1,3 +1,5 @@
+# (PENDING REVISION)
+
 # Starting React pack for projects
 
 Modern react using **pnpm** and **vite**
