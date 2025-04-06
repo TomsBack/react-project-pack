@@ -1,8 +1,10 @@
 {
-	"plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-classnames"],
+	"plugins": ["prettier-plugin-classnames", "prettier-plugin-tailwindcss"],
 	"trailingComma": "es5",
 	"tabWidth": 4,
 	"useTabs": true,
 	"singleQuote": false,
-	"printWidth": 120
+	"printWidth": 120,
+	"tailwindStylesheet": "./src/index.css",
+	"tailwindFunctions": ["clsx", "twMerge", "cva", "cn"]
 }
