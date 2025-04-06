@@ -1,5 +1,3 @@
-# (PENDING REVISION)
-
 # Starting React pack for projects
 
 Modern react using **pnpm** and **vite**
@@ -7,7 +5,7 @@ Modern react using **pnpm** and **vite**
 Packed with:
 
 - Typescript
-- Eslint (8.57.0)
+- Eslint
 - Prettier
 - Tailwindcss
 - Vitest
