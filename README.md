@@ -6,13 +6,13 @@ Modern react using **pnpm** and **vite**
 
 Packed with:
 
--   Typescript
--   Eslint (8.57.0)
--   Prettier
--   Tailwindcss
--   Vitest
--   Postcss (will get replaced by lightningcss in the future)
--   twMerge + clsx util
+- Typescript
+- Eslint (8.57.0)
+- Prettier
+- Tailwindcss
+- Vitest
+- Postcss (will get replaced by lightningcss in the future)
+- twMerge + clsx util
 
 Use Node LTS version
 
