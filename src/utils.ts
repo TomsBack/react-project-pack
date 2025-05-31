@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 /**
  * A utility function to merge class names using clsx and tailwind-merge.
- * @param classes The class names to merge.
- * @returns A string of merged class names.
+ * @param {ClassValue[]} classes The class names to merge.
+ * @returns {string} A string of merged class names.
  */
-export const cn = (...classes: ClassValue[]) => twMerge(clsx(classes));
+export const cn = (...classes: ClassValue[]): string => twMerge(clsx(classes));
