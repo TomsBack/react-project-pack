@@ -10,7 +10,7 @@ import tseslint from "typescript-eslint";
 
 export default defineConfig([
 	{
-		ignores: ["eslint.config.mjs"],
+		ignores: ["eslint.config.mjs", "tailwind.config.ts", "vite.config.ts"],
 	},
 	js.configs.recommended,
 	eslintConfigPrettier,
