@@ -4,5 +4,5 @@ test("test", () => {
 });
 
 test("window not undefined", () => {
-	expect(typeof window).not.toBe("undefined");
+	expect(typeof globalThis.window).not.toBe("undefined");
 });
