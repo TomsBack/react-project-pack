@@ -6,5 +6,7 @@
 	"singleQuote": false,
 	"printWidth": 120,
 	"tailwindStylesheet": "./src/index.css",
-	"tailwindFunctions": ["clsx", "twMerge", "cva", "cn"]
+	"tailwindFunctions": ["clsx", "twMerge", "cva", "cn"],
+	"semi": true,
+	"endOfLine": "auto"
 }
